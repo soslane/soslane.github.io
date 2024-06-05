@@ -14,9 +14,9 @@ future: true
 # SNS settings
 RSS: true
 weibo_username: soslane
-#zhihu_username: soslane
+zhihu_username: soslane
 github_username: igweek
-twitter_username: soslane
+#twitter_username: soslane
 #facebook_username:  soslane
 #linkedin_username:  firstname-lastname-idxxxx
 
