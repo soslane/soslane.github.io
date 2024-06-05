@@ -38,33 +38,54 @@ NFS服务配置文件在**/etc/exports**，配置参数其结构如下：
 
 ## 三、举个栗子
 **要求：NFS共享一个目录/data，客户机挂载NFS共享**
+
 首先关闭selinux
+
 `vim /etc/selinux/config`    编辑selinux配置文件
+
 `sestatus`                   查看selinnx状态，如果还是enable，reboot一下
 或者临时关闭防火墙
 `systemctl stop firewalld
 setenforce 0`
+
 步骤 1：安装 NFS 服务器软件包
+
 `yum install nfs-utils rpcbind -y`
+
 步骤 2：配置共享目录
+
 `mkdir /data`
+
 编辑 NFS 服务器的共享配置文件 /etc/exports，添加要共享的目录和权限设置。
+
 `vim /etc/exports`
+
 共享 /data 目录给所有客户端
+
 `/data    *(rw,sync,no_root_squash)`
+
 步骤 3：重启 NFS 服务
+
 `systemctl restart nfs-server
 systemctl enable nfs-server`
+
 步骤 4：设置防火墙规则
+
 `firewall-cmd --permanent --add-service=nfs
 firewall-cmd --reload`
+
 步骤 5：挂载 NFS 共享（对于客户端）
+
 在客户端系统上，使用 mount 命令挂载 NFS 共享
+
 新建挂载目录
 `mkdir /mnt/nfs
 mount -t nfs <NFS服务器IP>:/data /mnt/nfs`
+
 步骤 6：验证共享是否生效
+
 `ls /mnt/nfs`
+
 如果一切正常，您应该能够在客户端看到共享目录中的文件和目录
 
 ## 四、再举个栗子
