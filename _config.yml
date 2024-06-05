@@ -91,5 +91,7 @@ page-mathjax: false
 # Friends
 friends:
   [
-   
+    { title: "我娇贵的小绝怂", href: "https://bbs.myla.eu.org/" },
+    { title: "Gweek", href: "https://gweek.myla.eu.org" },
+    { title: "Typecho", href: "https://blog.beybi.eu.org" },
   ]
