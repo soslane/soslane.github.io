@@ -19,10 +19,16 @@ iGweek不仅是一个知识的交流平台，更是一个汇聚智慧与灵感�
 ```
 ---
 layout:       post
+
 title:        "Welcome to my blog"
+
 author:       "Gweek"
+
 header-style: text
+
 catalog:      true
+
 tags:
+
     - 笔记
 ---
