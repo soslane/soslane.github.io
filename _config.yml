@@ -69,8 +69,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "G-GWLZQST0ED" # Format: UA-xxxxxx-xx
-ga_domain: igweek.github.io
+# ga_track_id: "G-GWLZQST0ED" # Format: UA-xxxxxx-xx
+# ga_domain: igweek.github.io
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
@@ -89,7 +89,7 @@ service-worker: true
 page-mathjax: false
 
 # Friends
-#friends:
+friends:
   [
    
   ]
