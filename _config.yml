@@ -4,7 +4,7 @@ SEOTitle: 咕咕鸡 | Gweek Blog
 header-img: img/home-bg.jpg
 email: soslane@duck.com
 description: "这里是咕咕鸡的个人博客"
-keyword: "Blog,腰椎间盘突出,前端,Linux,Windows"
+keyword: "Blog,Java,node.js,Linux,Windows,css,html,go,python"
 url: "https://igweek.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
