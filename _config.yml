@@ -88,10 +88,21 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GWLZQST0ED"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GWLZQST0ED');
+</script>
+
 # Friends
 friends:
   [
     { title: "我娇贵的小绝怂", href: "https://bbs.myla.eu.org/" },
     { title: "Gweek", href: "https://gweek.myla.eu.org" },
     { title: "Typecho", href: "https://blog.beybi.eu.org" },
+    { title: "Pinbox", href: "https://withpinbox.com/items" },
   ]
