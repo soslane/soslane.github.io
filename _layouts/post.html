@@ -150,9 +150,16 @@ layout: default
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
 {% endif %}
 
+<div id="twikoo"></div>
+<script>
+  twikoo.init({
+    envId: https://twikoo.myla.eu.org,  // 替换为你的环境 ID
+    el: '#twikoo',
+    lang: 'zh-CN',               // 设置评论框语言，可选：zh-CN、en-US 等
+  });
+</script>
 
 {% if site.anchorjs %}
 <!-- async load function -->
