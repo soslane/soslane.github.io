@@ -102,8 +102,9 @@ AES加密：AES（Advanced Encryption Standard）是一种对称密钥加密算�
 
 `virsh secret-define secret.xml`  生成UUID并保存
 
+```shell
 `MYSECRET=`printf %s "123456" | base64`` 将密码"123456"转换为Base64编码，并将结果保存到了MYSECRET变量中
-
+```
 `echo $MYSECRET` 显示MYSECRET变量的值
 
 `virsh secret-set-value 上面生成的UUID $MYSECRET` 设置密钥值
