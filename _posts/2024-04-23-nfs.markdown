@@ -25,7 +25,7 @@ NFS服务配置文件在**/etc/exports**，配置参数其结构如下：
 
 **共享参数**：在目录路径之后，您可以指定一系列的共享参数，用于控制客户端对共享的访问权限和行为。
 
-![Untitled](https://github.com/soslane/soslane.github.io/assets/149466045/3605aae4-7bc7-4dd2-83d6-a096d2c26699)
+![](https://raw.githubusercontent.com/soslane/picgo/main/path/202407081820929.png)
 
 以上配置表示共享了 /data 目录给所有客户端，允许读写操作，并禁用了根用户映射；同时，将 /home 目录只读共享给 192.168.1.0/24 子网下的客户端，并要求数据同步写入磁盘。
 
@@ -127,7 +127,7 @@ setenforce 0`
 
 `vim /etc/exports`
 
-![Untitled 1](https://github.com/soslane/soslane.github.io/assets/149466045/82e88b78-58c7-4021-8e9e-7b1650192498)
+![](https://raw.githubusercontent.com/soslane/picgo/main/path/202407081823563.png)
 
 
 步骤 3：配置共享目录
