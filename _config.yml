@@ -75,7 +75,7 @@ ga_domain: gweek.myla.eu.org
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "Fake it till you make it <br> Cloud Computing Team @ Gweek"
-sidebar-avatar: https://jsd.cdn.zzko.cn/gh/soslane/picgo@main/path/429.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://img.myla.eu.org/file/d072e213b68c9b076a0b0.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
