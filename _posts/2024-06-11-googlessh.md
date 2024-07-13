@@ -22,9 +22,9 @@ tags:
 
 4.修改以下内容即可 按键盘【i】进入编辑，按【Esc】退出编辑，再输入 :wq 保存并退出
 
-![](https://jsd.cdn.zzko.cn/gh/soslane/picgo@main/path/20240611110453.png)
+![f4a69e069cdffd536fc83.png](https://img.myla.eu.org/file/f4a69e069cdffd536fc83.png)
 
-![](https://jsd.cdn.zzko.cn/gh/soslane/picgo@main/path/20240611110527.png)
+![2c0b69d11072065e3f8d3.png](https://img.myla.eu.org/file/2c0b69d11072065e3f8d3.png)
 
 5.重启sshd服务 `service sshd restart`
 
