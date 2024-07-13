@@ -113,7 +113,7 @@ AES加密：AES（Advanced Encryption Standard）是一种对称密钥加密算�
 
 修改下列信息
 
-![notion image](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F06074db3-42fc-4a83-b0ba-a5bba23b02a5%2F580c3a60-0b94-4785-8f8a-25f1e86208e5%2FUntitled.png?table=block&id=e0e9c299-2946-43cb-9392-bd45b997908a&t=e0e9c299-2946-43cb-9392-bd45b997908a&width=1088&cache=v2)
+![66c0470cd0811d0271f4e.png](https://img.myla.eu.org/file/66c0470cd0811d0271f4e.png)
 
 `virsh define /etc/libvirt/qemu/cirros.xml`  重新定义cirros
 
