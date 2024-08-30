@@ -2,7 +2,6 @@
 
  - Gweek/男/1983
  - 硕士/东南大学软件学院 
- - 工作年限：18年
  - 微博：https://weibo.com/soslane
  - 博客：https://gweek.myla.eu.org
  - Github：https://github.com/soslane
