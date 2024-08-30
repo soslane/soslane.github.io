@@ -4,7 +4,6 @@
 - Gender: Male
 - Year of Birth: 1983
 - Education: Master's Degree, School of Software, Southeast University
-- Work Experience: 18 years
 
 # Social Media
 
