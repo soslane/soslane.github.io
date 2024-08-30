@@ -1,2 +1,24 @@
-# Looking for what , here is nothing .
-![](https://pic.imgdb.cn/item/665ffac25e6d1bfa055a1b20.gif)
+
+# Personal Information
+
+- Name: Gweek
+- Gender: Male
+- Year of Birth: 1983
+- Education: Master's Degree, School of Software, Southeast University
+- Work Experience: 18 years
+
+# Social Media
+
+- Weibo: https://weibo.com/soslane
+- Blog: https://gweek.myla.eu.org
+- GitHub: http://github.com/soslane
+
+# Skills
+- Smoking
+- Drinking
+- Perming hair
+
+# Contact Information
+- Phone: 18X1812666X
+- Email: admin@apt.com.mp
+- QQ: 5664939
