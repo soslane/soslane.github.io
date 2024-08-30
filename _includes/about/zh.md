@@ -1,4 +1,4 @@
-<img src="https://pic.myla.eu.org/file/95b2d36c10c1dd3a04a8f.jpg" alt="image" style="zoom:33%;" />
+
 
 # 个人信息
 
