@@ -70,7 +70,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: "G-F0DBD28JLV" # Format: UA-xxxxxx-xx
-ga_domain: gweek.myla.eu.org
+ga_domain: blog.myla.eu.org
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
@@ -93,7 +93,6 @@ friends:
   [
     { title: "小绝怂", href: "https://www.myla.eu.org/" },
     { title: "Gweek", href: "https://blog.myla.eu.org/" },
-    { title: "Less is more", href: "https://blog.beybi.eu.org/" },
     { title: "Steven", href: "https://geek.nyc.mn/" },
     { title: "Back", href: "https://github.com/soslane/soslane.github.io/tree/master/_posts" },
     { title: "猪猪哥", href: "https://blog.zhuzhuge.com" },
