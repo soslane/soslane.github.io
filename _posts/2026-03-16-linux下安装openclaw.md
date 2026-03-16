@@ -9,9 +9,9 @@ tags:
 
 
 
-- Ubuntu 22.04
-- 普通用户 + sudo
-- 有 GPU 更好（但不是必须）
+> - Ubuntu 22.04
+> - 普通用户 + sudo
+> - 有 GPU 更好（但不是必须）
 
 ---
 
@@ -84,7 +84,7 @@ docker compose version
 
 # 四、安装 Ollama（本地模型）
 
-安装 **[Ollama](chatgpt://generic-entity?number=3)**
+安装 ollama
 
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
@@ -234,7 +234,6 @@ http://你的服务器IP:11434
 
 # 八、GPU 加速（如果有 NVIDIA）
 
-如果你有显卡（比如你之前说的 **4060 / RX580**）：
 
 NVIDIA：
 
